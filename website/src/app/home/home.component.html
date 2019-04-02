@@ -1,0 +1,115 @@
+<nav class="navbar sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">ASInt Project</a>
+    <a [hidden]="!hideLogin" class="navbar-brand" href="#">Logout</a>
+</nav>
+
+<div [hidden]="hideLogin" class="container text-center">
+    <button type="button" class="btn btn-primary" (click)="loginRedirect()">Login</button>
+</div>
+
+
+<div [hidden]="!hideLogin" class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <h1>Welcome {{istid}}!</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <form class="mb-4">
+                <div class="form-group mb-3">
+                    <label>Latitude:</label>
+                    <input type="text" class="form-control" id="latitude" [(ngModel)]="position.latitude" name="latitude">
+                </div>
+                <div class="form-goup mb-3">
+                    <label>Longitude:</label>
+                    <input type="text" class="form-control" id="longitude" [(ngModel)]="position.longitude" name="longitude">
+                </div>
+                <button type="button" class="btn btn-primary mr-3" (click)="getLocation()">Get Location <i class="fas fa-location-arrow"></i></button>
+                <button type="button" class="btn btn-primary mr-3" (click)="sendLocation()">Send Location</button>
+            </form>
+
+            <form class="mb-4">
+                <div class="form-group mb-3">
+                    <input type="text" class="form-control" id="distance" [(ngModel)]="distance" name="distance">
+                </div>
+                <button type="button" class="btn btn-primary" (click)="setDistance()">Set distance</button>
+            </form>
+
+            <form class="mb-4">
+                <div class="form-group mb-3">
+                    <input type="text" class="form-control" id="message" [(ngModel)]="message" name="message">
+                </div>
+                <button type="button" class="btn btn-primary" (click)="sendMessage()">Send message</button>
+            </form>
+
+            <form class="mb-4">
+                <button type="button" class="btn btn-primary mr-3" (click)="getMessages()">Get messages</button>
+                <button type="button" class="btn btn-danger mr-3" (click)="clearMessages()">Clear messages</button>
+                Refresh time:
+                <select [(ngModel)]="messagesRefreshTime" name="name">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>5</option>
+                    <option>10</option>
+                </select> s
+            </form>
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" *ngFor="let message of messages">
+                    {{message}}
+                </li>
+            </ul>
+
+        </div>
+        <div class="col-6">
+            <h2>Nearby users:</h2>
+            <div class="mb-3">
+                Refresh time:
+                <select [(ngModel)]="usersRefreshTime">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>5</option>
+                    <option>10</option>
+                </select> s
+            </div>
+            <div class="row" class="mb-3">
+                <div class="col">
+                    <p>In {{distance}} meters range:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item" *ngFor="let user of usersLocation">
+                            {{user}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" class="mb-3">
+                <div class="col">
+                    <p>Building: {{building}}</p>
+                    <ul class="list-group">
+                        <li class="list-group-item" *ngFor="let user of usersBuilding">
+                            {{user}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,97 @@
+[ {
+    "id" : "2448131361024",
+    "name" : "Pavilhão de Electricidade",
+    "latitude" : "38.737848",
+    "longitude" : "-9.138699",
+    "users" : []
+  }, {
+    "id" : "2448131361165",
+    "name" : "Pavilhão de Mecânica I",
+    "latitude" : "38.737361",
+    "longitude" : "-9.138649",
+    "users" : []
+  }, {
+    "id" : "2448131361074",
+    "name" : "Torre Sul",
+    "latitude" : "38.735999",
+    "longitude" : "-9.138463",
+    "users" : []
+  }, {
+    "id" : "2448131361051",
+    "name" : "Pavilhão de Física",
+    "latitude" : "38.735542",
+    "longitude" : "-9.140205",
+    "users" : []
+  }, {
+    "id" : "2448131361173",
+    "name" : "Pavilhão de Informática II",
+    "latitude" : "38.737259",
+    "longitude" : "-9.137882",
+    "users" : []
+  }, {
+    "id" : "2448131361035",
+    "name" : "Complexo Interdisciplinar",
+    "latitude" : "38.736004",
+    "longitude" : "-9.140159",
+    "users" : []
+  }, {
+    "id" : "2448131361176",
+    "name" : "Pavilhão do Jardim Norte",
+    "latitude" : "38.737898",
+    "longitude" : "-9.139494",
+    "users" : []
+  }, {
+    "id" : "2448131361042",
+    "name" : "Pavilhão de Civil",
+    "latitude" : "38.737416",
+    "longitude" : "-9.140259",
+    "users" : []
+  }, {
+    "id" : "2448131361129",
+    "name" : "Pavilhão de Informática III",
+    "latitude" : "38.737649",
+    "longitude" : "-9.137571",
+    "users" : []
+  }, {
+    "id" : "2448131361133",
+    "name" : "Pavilhão de Informática I",
+    "latitude" : "38.737890",
+    "longitude" : "-9.137731",
+    "users" : []
+  }, {
+    "id" : "2448131361155",
+    "name" : "Pavilhão de Mecânica III",
+    "latitude" : "38.737403",
+    "longitude" : "-9.137005",
+    "users" : []
+  }, {
+    "id" : "2448131361091",
+    "name" : "Torre Norte",
+    "latitude" : "38.737595",
+    "longitude" : "-9.138672",
+    "users" : []
+  }, {
+    "id" : "2448131361109",
+    "name" : "Pavilhão de Química",
+    "latitude" : "38.736211",
+    "longitude" : "-9.138465",
+    "users" : []
+  }, {
+    "id" : "2448131361060",
+    "name" : "Pavilhão Central",
+    "latitude" : "38.736749",
+    "longitude" : "-9.139382",
+    "users" : []
+  }, {
+    "id" : "2448131361150",
+    "name" : "Pavilhão de Mecânica IV",
+    "latitude" : "38.737637",
+    "longitude" : "-9.137916",
+    "users" : []
+  }, {
+    "id" : "2448131361119",
+    "name" : "Pavilhão de Matemática",
+    "latitude" : "38.735574",
+    "longitude" : "-9.139805",
+    "users" : []
+  } ]
