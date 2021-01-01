@@ -176,8 +176,8 @@ def users_login():
     if code != None:
         if code != 't1' and code != 't2': ## PARA TESTES
             #Fenix app configs
-            client_id = "***REMOVED***"
-            client_secret = "***REMOVED***"
+            client_id = "sec"
+            client_secret = "sec"
             redirect_uri = "http://localhost:5000"
             grant_type = "authorization_code"
             data = {'client_id':client_id, 'client_secret':client_secret, 'redirect_uri':redirect_uri, 'code':code, 'grant_type':grant_type}
