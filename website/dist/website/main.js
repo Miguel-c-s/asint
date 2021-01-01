@@ -270,7 +270,7 @@ var HomeComponent = /** @class */ (function () {
           }*/
     };
     HomeComponent.prototype.loginRedirect = function () {
-        var url = '***REMOVED***';
+        var url = 'https://fenix.tecnico.ulisboa.pt/oauth/userdialog?client_id=***REMOVED***&redirect_uri=http://localhost:5000';
         window.open(url, '_self');
     };
     HomeComponent.prototype.getLocation = function () {

@@ -87,7 +87,7 @@ export class HomeComponent implements OnInit {
   }
 
   loginRedirect() {
-    let url = '***REMOVED***';
+    let url = 'xx';
     window.open(url, '_self');
   }
 
